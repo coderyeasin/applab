@@ -1,0 +1,37 @@
+/* for laptops and desktops */
+@media only screen and (max-width: 992px) {
+  #toggler_btn {
+    display: block;
+  }
+  .nav_menu {
+    display: none;
+  }
+  .hero_text h1 {
+    font-size: 50px;
+    line-height: 65px;
+  }
+}
+
+/* for landscape tablets, landscape mobiles */
+@media only screen and (max-width: 768px) {
+  #banner {
+    margin: 50px 0px;
+  }
+  .hero_section {
+    flex-direction: column;
+  }
+  .hero_img {
+    width: 100%;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .hero_text {
+    order: 2;
+    width: 100%;
+    padding: 0 15px;
+  }
+}
+
+/* for tablets, large display phones */
+@media only screen and (max-width: 570px) {
+}

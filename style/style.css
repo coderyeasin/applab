@@ -81,14 +81,31 @@ header {
   color: #ffffff;
   font-weight: 700;
 }
+.toggler_btn {
+  display: none;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.toggler_btn i {
+  color: chocolate;
+  font-size: 30px;
+}
 
 /* Hero/Banner Section */
 
+#banner {
+  min-width: calc(100vh - 72px);
+  background-image: url("../images/banner.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .hero_section {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  min-width: calc(100vh - 72px);
 }
 
 .hero_text {
@@ -98,26 +115,54 @@ header {
   line-height: 28px;
   color: #242f51;
   font-weight: 400;
+  width: 362px;
+  height: 35px;
+  border-radius: 17px;
+  background-color: #e2eaed;
+  display: flex;
+  align-items: center;
+}
+.hero_text h6 i {
+  width: 39px;
+  height: 35px;
+  border-radius: 17px;
+  background-color: #feaa25;
+  display: block;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
 }
 .hero_text h1 {
   font-size: 60px;
   line-height: 75px;
   color: #242f51;
   font-weight: 600;
+  max-width: 525px;
+  margin: 30px 0;
 }
 .hero_text p {
   font-size: 18px;
   line-height: 28px;
   color: #616368;
+  margin-bottom: 39px;
   font-weight: 400;
 }
 .buttons {
+  display: flex;
 }
 .demo_btn {
   font-size: 16px;
   line-height: 44px;
   color: #2500f9;
   font-weight: 400;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin-left: 20px;
 }
 
 .hero_img {
