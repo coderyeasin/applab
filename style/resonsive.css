@@ -1,5 +1,8 @@
 /* for laptops and desktops */
 @media only screen and (max-width: 992px) {
+  .inner_header {
+    /* justify-content: space-between; */
+  }
   #toggler_btn {
     display: block;
   }
@@ -29,6 +32,7 @@
     order: 2;
     width: 100%;
     padding: 0 15px;
+    align-items: center;
   }
 }
 
